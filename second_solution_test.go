@@ -7,8 +7,8 @@ import "testing"
 func TestSecondSolution(t *testing.T) {
 	for _, tt := range wnpTests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := otherWholeNumPad(tt.args.item, tt.args.pad); got != tt.want {
-				t.Errorf("otherWholeNumPad() = %v, want %v", got, tt.want)
+			if got := SecondSolution(tt.args.item, tt.args.pad); got != tt.want {
+				t.Errorf("SecondSolution() = %v, want %v", got, tt.want)
 			}
 		})
 	}

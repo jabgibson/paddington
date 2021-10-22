@@ -1,6 +1,6 @@
 package paddington
 
-func otherWholeNumPad(item string, pad int) string {
+func SecondSolution(item string, pad int) string {
 	// aggregator and temp num variable
 	var agg string
 	var num []byte
