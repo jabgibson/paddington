@@ -4,7 +4,7 @@ The first version of this had only one solution (see earlier commits). Because I
 requesting me to write this would have any concerns about the recursive nature of the first solution
 I have now created two solutions. Both were from the hip, without much research or diligence in presentation.
 
-The test file... shared_test.go is marely holding the test parameters that both tests will run.
+The test file... shared_test.go is merely holding the test parameters that both tests will run.
 
 ### original introduction
 WholeNumPad takes a string and an integer, and will return a string
