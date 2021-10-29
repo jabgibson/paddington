@@ -6,8 +6,8 @@ import "testing"
 func TestFirstSolution(t *testing.T) {
 	for _, tt := range wnpTests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := WholeNumPad(tt.args.item, tt.args.pad); got != tt.want {
-				t.Errorf("WholeNumPad() = %v, want %v", got, tt.want)
+			if got := FirstSolution(tt.args.item, tt.args.pad); got != tt.want {
+				t.Errorf("FirstSolution() = %v, want %v", got, tt.want)
 			}
 		})
 	}

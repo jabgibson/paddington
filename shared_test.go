@@ -35,6 +35,14 @@ func init() {
 			want: "PI=03.14",
 		},
 		{
+			name: "Trick Pi",
+			args: WNPArgs{
+				item: "PI=3.14",
+				pad:  3,
+			},
+			want: "PI=003.14",
+		},
+		{
 			name: "clock time",
 			args: WNPArgs{
 				item: "It's 3:13pm",

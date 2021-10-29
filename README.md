@@ -1,4 +1,9 @@
 # paddington
+
+### update [10-29-2021]
+Updated logic to support the concept of a decimal with a padding of greater than 2.
+fn("PI=3.13", 3) ==> "PI=003.14" rather than "PI=003.014"
+
 ### update [10-22-2021]
 The first version of this had only one solution (see earlier commits). Because I was unsure if the party
 requesting me to write this would have any concerns about the recursive nature of the first solution
