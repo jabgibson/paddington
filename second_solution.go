@@ -33,18 +33,6 @@ func SecondSolution(item string, pad int) string {
 			}
 			agg += string(char)
 		}
-		//
-		//if char >= 48 && char <= 57 {
-		//	num = append(num, byte(char))
-		//	continue
-		//}
-		//if len(num) != 0 {
-		//	agg += padFn(num)
-		//	num = nil
-		//	num = []byte{}
-		//}
-		//agg += string(char)
-
 	}
 	if len(num) != 0 {
 		agg += padFn(num)
